@@ -2,7 +2,7 @@
 
 An interactive 3D weather and environmental atlas, prepared for autonomous implementation in Codex Cloud.
 
-**Current status: preparation only. The application has not been implemented yet.**
+**Current status: the repository and private Codex Cloud environment are prepared and verified for a separate implementation task. The application has not been implemented yet.**
 
 ## Project specification
 
@@ -15,7 +15,9 @@ The intended application includes temperature, precipitation, wind, UV, European
 
 ## Start development
 
-Prepare the private Codex environment using `docs/CODEX_SETUP.md`. Then start a separate build task with the full assignment in `docs/CODEX_MASTER_PROMPT.txt`, or ask Codex to read that file completely and execute it in `BUILD_WITHOUT_PAUSES` mode.
+The private `weather-globe` environment is prepared. See `docs/PROGRESS.md` for verified runtime/data/browser checks and the remaining application-level work. In ChatGPT, open Explore → Codex, choose Work in → Cloud → `weather-globe`, then start a separate build task with the launch text in `docs/CODEX_SETUP.md` or the complete assignment in `docs/CODEX_MASTER_PROMPT.txt`.
+
+The prepared launch uses `GPT-6.1 Sol High` and `Approve for me`. Its prompt tells Codex to read the full assignment and execute it in `BUILD_WITHOUT_PAUSES` mode through implementation, verification and an available private preview.
 
 The base branch is `master`. Implementation belongs on `feat/weather-globe`, followed by a draft PR targeting `master` when the connected environment permits it. Do not merge or publish the application automatically.
 

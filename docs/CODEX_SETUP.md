@@ -87,12 +87,29 @@ The browser installer may require official download hosts such as `cdn.playwrigh
 
 The browser Worker/WASM decode, two layers/two times, units, geography, and actual GPU texture tests belong to stage 1 of the build assignment. An HTTP 200 manifest alone does not satisfy them.
 
+## Prepared environment evidence
+
+The private `weather-globe` environment was prepared on 2026-10-20. Read [the progress record](PROGRESS.md) for exact versions, passed checks and checks that still belong to application development.
+
+The prepared runtime uses Node.js v24.19.0 LTS and pnpm 10.34.7, with Python Playwright 1.62.0 and system Chromium 154.0.8037.57. Use the prepared pnpm path:
+
+```bash
+cd /workspace/weather-globe
+export PATH="/workspace/weather-globe-tools/bin:$PATH"
+```
+
+The snapshot retains local/browser test helpers under `/workspace/weather-globe-tools/checks`. The optional browser-origin check succeeded with real page-origin CORS and normal HTTPS verification. It uses the platform's explicit proxy configuration and a wrapper for only the platform-provided CA. The successful run reused an existing matching CA without changing its trust. Do not replace this setup with TLS bypass options.
+
+The Start skill distinguishes environment preparation from a separately authorized build. Setup must not execute the master prompt's implementation command. A build task must read and execute the full master prompt rather than treating preparation-only restrictions as permanent prohibitions.
+
 ## Start the separate build task
+
+In ChatGPT, open Explore → Codex, choose Work in → Cloud → `weather-globe`, then use `GPT-6.1 Sol High` with `Approve for me`. A draft with these selections has been prepared; sending it starts implementation. Cloud tasks run remotely, subject to the account's available usage and platform approval rules.
 
 Paste the full `docs/CODEX_MASTER_PROMPT.txt` into a new task in this environment, or use:
 
 ```text
-Implement Weather Globe in kostrubin/weather-globe. Read AGENTS.md, then read docs/CODEX_MASTER_PROMPT.txt completely and execute it in BUILD_WITHOUT_PAUSES mode. Work on feat/weather-globe from the current default branch (initially master). Finish the authorized implementation, meaningful verification, production build, and available private preview. New external spending is zero. Do not merge or deploy to production. Communicate in Russian and return evidence of the completed result.
+Implement Weather Globe in kostrubin/weather-globe. Read AGENTS.md, then read docs/CODEX_MASTER_PROMPT.txt completely and execute it in BUILD_WITHOUT_PAUSES mode. Read docs/PROGRESS.md for the latest preparation evidence. Work on feat/weather-globe from the verified current default branch (initially master). Finish the authorized implementation, real-data browser feasibility checks, polished responsive 3D interface, meaningful verification, production build, and available private preview. Use one implementation writer and independent read-only reviewers when useful. New external spending is zero. Do not stop after a plan or scaffold; follow the specification through completion or a precisely evidenced blocker. Do not merge or deploy to production. Communicate in Russian and return evidence of the completed result.
 ```
 
 ## Official references
@@ -101,5 +118,6 @@ Implement Weather Globe in kostrubin/weather-globe. Read AGENTS.md, then read do
 - https://learn.chatgpt.com/docs/agent-configuration/agents-md
 - https://nodejs.org/en/about/previous-releases
 - https://playwright.dev/docs/intro
+- https://chromium.googlesource.com/chromium/src/+/main/docs/linux/cert_management.md
 
 Configuration names and available controls can change. Follow the actual environment UI and current official documentation, preserving the zero-spend and private-environment constraints.
