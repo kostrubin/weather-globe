@@ -8,7 +8,7 @@ Weather Globe is implemented in `feat/weather-globe`, based on verified current 
 - Interactive georeferenced globe, Natural Earth coastlines, palettes, run/valid/interval information and explicit regional pollen masks.
 - Selected-point forecast/chart/table/7 daily summaries, named European AQI, search/coordinates, RU/EN, favorites/recent places, persistent settings, share URL and explicit geolocation.
 - Responsive desktop/mobile sheet, keyboard controls, reduced motion, Auto/High/Low quality and usable WebGL-loss/absent fallback with retry.
-- Ordinary static production build with relative paths, Brotli/gzip sidecars, GPL source archive and full third-party notices.
+- Ordinary static production build with relative paths, Brotli/gzip sidecars, exact OM GPL source archive and third-party notices. Full dependency preferred-source correspondence is not claimed.
 
 ## Verified
 
@@ -29,6 +29,8 @@ At 00:07 UTC the environment's outbound HTTPS tunnel began returning HTTP 503 wi
 
 No native remote-preview/port-forward tool is available. Loopback production QA servers are not presented as user-accessible private URLs. Firefox/WebKit, real mobile GPU targets and real-visit CWV are untested. Exact current hosted pricing/terms pages returned403; conservative noncommercial service constraints are documented. No owner decision is needed for the finished local artifacts; permanent hosting remains a separate authorized task.
 
-Last verified local implementation commit: `e698a073b7a9c6f45343e40f0dcc9178fe14e164` (core data pipeline and full verification evidence). Final source also exposes the optional wind overlay model/run/valid-time independently in Sources; this display-only change was typechecked and built. Git HTTPS push received the same503 tunnel failure; the existing GitHub connector is used for content-addressed delivery with exact tree equality verification. Remote commit metadata may differ from the local authoring commit; source/build contents remain identical and are recorded in handoff.
+Verified remote implementation commit: `b341bc90b43d14aef66564c4c243a8db90155707`, tree `dcf648ecfeacf3fffd25098aa5b7023e0f63608b`. It includes the full verified implementation and a final typechecked/built display-only change exposing optional overlay provenance independently. Git HTTPS push received the same503 tunnel failure; the existing GitHub connector delivered the identical Git tree from verified master via Git Data APIs. The local branch was synchronized to that exact content-addressed commit without rewriting published history. Later delivery-documentation commits do not change application code.
 
-The designated projectless output mount is absent/read-only in this managed runtime (`mkdir /codex/.../output` fails even with the exact filesystem grant). User-facing evidence is therefore delivered through the authorized GitHub feature branch; local production artifacts remain in the repository workspace and a downloadable build is prepared without production hosting.
+The designated projectless output mount is absent/read-only in this managed runtime (`mkdir /codex/.../output` fails even with the exact filesystem grant). User-facing evidence is therefore delivered through the authorized GitHub feature branch. Production `dist/` and verified ZIPs remain local; no external compiled bundle or permanent site is published.
+
+External binary delivery is partial: exact OM GPL source is included, but React source archive retrieval returned503, R3F npm gitHead returned404 and the available release tag declares9.8.1 rather than installed9.8.2, and some generated modules still lack preferred-source forms. The independent review preserved package/source-map snapshots locally. `SOURCE_DELIVERY.md` records exact findings and a pinned retrieval procedure. These findings do not block reviewing or rebuilding the application source; they prevent claiming a source-complete binary release.
