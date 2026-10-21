@@ -2,7 +2,7 @@
 
 Interactive Russian/English weather atlas built with React, TypeScript, Three.js/R3F and a threadless OM WebAssembly Worker. Static frontend, no API key or server/database. Application source: `feat/weather-globe`; hosting status is recorded below.
 
-Owner-private viewing link: https://weather-globe-preview.yummy-bloom-2840.chatgpt.site (sign in with the same ChatGPT account). Following the owner's publication request, a static `gh-pages` branch is also prepared. See [publication status and Pages activation](docs/PUBLISHING.md).
+Public viewing link: https://kostrubin.github.io/weather-globe/. Private backup: https://weather-globe-preview.yummy-bloom-2840.chatgpt.site (same ChatGPT account). GitHub Pages build/deployment succeeded from `gh-pages`; see [publication evidence](docs/PUBLISHING.md).
 
 ## Run
 

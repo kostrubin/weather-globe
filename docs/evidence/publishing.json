@@ -13,7 +13,21 @@
     "enabledAtInspection": false,
     "activationAPI": "not exposed by connected GitHub tools; direct gh api denied by managed destination policy",
     "plannedBranch": "gh-pages",
-    "publishingPath": "/"
+    "publishingPath": "/",
+    "enabledAfterBranchPush": true,
+    "branchCommit": "0323e5097181807c8c4a4d26f61a92cf91c31786",
+    "applicationSourceCommit": "f480926bd6de0215c4142a12ef8831e2a8746fec",
+    "url": "https://kostrubin.github.io/weather-globe/",
+    "runId": 39524866085,
+    "runUrl": "https://github.com/kostrubin/weather-globe/actions/runs/39524866085",
+    "jobs": {
+      "build": "success",
+      "deploy": "success",
+      "report-build-status": "success"
+    },
+    "deployLogConfirmation": "2026-10-21T01:02:41.0724998Z Evaluated environment url: https://kostrubin.github.io/weather-globe/",
+    "activation": "GitHub automatic Pages setup on authorized new gh-pages branch push; no manual step remains",
+    "actualOriginBrowserCheck": "unavailable through selected executor/network tools; prefix production smoke verified separately"
   },
   "newExternalSpending": 0,
   "sourceSync": "Exact pushed static source head verified; source credential used only through hidden stdin and child environment; no credential persisted. Packaged helper absent in this executor; ordinary Git and tar performed equivalent source/manifest/archive checks."

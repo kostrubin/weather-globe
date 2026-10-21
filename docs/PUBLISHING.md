@@ -1,6 +1,12 @@
 # Viewing and static publication
 
-The owner requested a hosted viewing link after the original source-only handoff. The working owner-private preview is:
+The owner requested a hosted viewing link after the original source-only handoff. The public GitHub Pages site is:
+
+https://kostrubin.github.io/weather-globe/
+
+GitHub automatically enabled Pages when the new `gh-pages` branch was pushed. Built-in run39524866085 completed build/deploy/report-build-status successfully; the deploy log confirmed the exact environment URL. No manual activation is needed. Static commit: `0323e5097181807c8c4a4d26f61a92cf91c31786`; matching application source: `f480926bd6de0215c4142a12ef8831e2a8746fec`.
+
+An owner-private backup is:
 
 https://weather-globe-preview.yummy-bloom-2840.chatgpt.site
 
@@ -10,12 +16,7 @@ Sign in with the same ChatGPT account. This Sites deployment is owner-only; no a
 
 The prepared `gh-pages` branch contains a static production build at the root, `.nojekyll`, license notices, matching application source and runtime source. It requires no merge to master, custom Actions workflow, API key or backend. The owner has authorized this viewing publication.
 
-At inspection GitHub reported `has_pages:false`. The connected GitHub tools can push the branch, but cannot activate Pages. Direct `gh api` requests to api.github.com are denied by the managed environment's destination policy. If Pages remains disabled after the branch push, finish in the repository UI:
-
-1. Open https://github.com/kostrubin/weather-globe/settings/pages.
-2. Set Source to **Deploy from a branch**.
-3. Choose **gh-pages**, **/(root)**, then **Save**.
-4. Use the actual deployed URL shown by GitHub. The expected project path is `/weather-globe/`; do not treat that expected address as proof of publication.
+Before upload GitHub reported `has_pages:false`. Direct API activation was unavailable through this environment, but the authorized branch push triggered GitHub's automatic Pages setup and standard dynamic deployment. Repository Pages is now enabled. No custom workflow file or schedule was added, and the public standard runner introduced no external spending.
 
 Before branch delivery an independent Chromium production smoke mounted the actual build at `/weather-globe/`:11 local assets returned200; Worker/lazy3D/WASM paths and WASM MIME passed; real temperature00Z→03Z and UV03Z rendered without page errors. See `evidence/pages-prefix-browser.json`. A future origin-specific check must also verify provider CORS, shared-URL reload and actual compression. GitHub Pages may ignore precompressed sidecars, so their presence alone is not proof of transfer encoding.
 
