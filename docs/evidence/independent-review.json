@@ -1,0 +1,74 @@
+{
+  "nearSide": "ЛОКАЛЬНЫЙ ПРОГНОЗ\nКоординаты\n\n-34.60°, -58.38°",
+  "zoomCounts": [
+    174515,
+    234415,
+    174515
+  ],
+  "layout": [
+    {
+      "dimensions": [
+        1440,
+        1440,
+        900,
+        900
+      ],
+      "violations": [],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "dimensions": [
+        390,
+        390,
+        844,
+        1137
+      ],
+      "violations": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "dimensions": [
+        768,
+        768,
+        1024,
+        1024
+      ],
+      "violations": [],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "dimensions": [
+        844,
+        844,
+        390,
+        740
+      ],
+      "violations": [],
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  ],
+  "overlayAfterLayerSwitch": {
+    "layer": "pressure",
+    "status": "ready",
+    "fieldStatus": null
+  },
+  "overlayAfterTimeSwitch": {
+    "layer": "pressure",
+    "time": "2026-10-21T03:00Z",
+    "status": "ready",
+    "fieldStatus": null
+  },
+  "errors": []
+}

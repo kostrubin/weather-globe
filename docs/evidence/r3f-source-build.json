@@ -1,0 +1,127 @@
+{
+  "observedAt": "2026-10-21T00:53:56.944Z",
+  "upstreamTag": "v9.8.2",
+  "upstreamSourceCommit": "d74622ea8ed717f7212d7e19d65ff3e325508389",
+  "sourceMetadataPatch": "version9.8.1 ->9.8.2; explicit files dist/native/react-reconciler/CHANGELOG.md",
+  "normalization": "Babel AST, ignore source positions/comments/raw lexemes and hashed events chunk basenames only; all values, code structure and identifiers retained",
+  "allJavaScriptEquivalent": true,
+  "results": [
+    {
+      "file": "dist/events-HASH.cjs.dev.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "a4174b2d81197789430631b93e75c8f9420104abea9879201e4fb737e3e312be",
+      "rebuildSha256": "90460096e216feb794b703ab9e466d5315ab17350df0aa13985b565f238670c9",
+      "normalizedAstSha256": "b526fac72509a541a3b380e59d15bebee04c69bf0450b58b786f4505323cf19c",
+      "rebuiltNormalizedAstSha256": "b526fac72509a541a3b380e59d15bebee04c69bf0450b58b786f4505323cf19c"
+    },
+    {
+      "file": "dist/events-HASH.cjs.prod.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "6d0e80512e686d15405a20e85496294496c0e25afbfc18e56f8e9f622ff7ce8a",
+      "rebuildSha256": "4b37c4c2c117089ee5902cacd88a0791937cf4313ed0b488ea5a000b83ae5597",
+      "normalizedAstSha256": "c375074f3031e11c444374a77521912d434fabbdb6840731c1c356ea47ecc972",
+      "rebuiltNormalizedAstSha256": "c375074f3031e11c444374a77521912d434fabbdb6840731c1c356ea47ecc972"
+    },
+    {
+      "file": "dist/events-HASH.esm.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "b42a047098f41a5f0c4f4e0756c37429347fa67a8d68bb8ca94eafad7a03071c",
+      "rebuildSha256": "0f1d15e220a597104c2d2246a7c6b099c205d9cb77a5ee3100f4db3159fa46e0",
+      "normalizedAstSha256": "2e2392aedbea7d5cce01e7faadb6d05ac9606eaeb8719612d1ea4a1a88a49b0a",
+      "rebuiltNormalizedAstSha256": "2e2392aedbea7d5cce01e7faadb6d05ac9606eaeb8719612d1ea4a1a88a49b0a"
+    },
+    {
+      "file": "dist/react-three-fiber.cjs.dev.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "ade24fe826da460bde73db0b291260d00166a285176d9c0e9800cf0f5a6d3bcb",
+      "rebuildSha256": "b84fb852a7275d5d7a7c8af1a1ab827681735638c123dd46ccf39d5124ed68d6",
+      "normalizedAstSha256": "ea2b6e9354b6d3130bb6864a5f537443bac8860ea83848b6c79fe6a2bfb0f939",
+      "rebuiltNormalizedAstSha256": "ea2b6e9354b6d3130bb6864a5f537443bac8860ea83848b6c79fe6a2bfb0f939"
+    },
+    {
+      "file": "dist/react-three-fiber.cjs.js",
+      "equal": true,
+      "byteIdentical": true,
+      "npmSha256": "bf96c611db1c41688b33f0b0246756517aff27ed81b74e870b1181e466240ed8",
+      "rebuildSha256": "bf96c611db1c41688b33f0b0246756517aff27ed81b74e870b1181e466240ed8",
+      "normalizedAstSha256": "41706bf04867e77df0a21521fa16bafafff1e6a009df2b26120c451d5d72cefe",
+      "rebuiltNormalizedAstSha256": "41706bf04867e77df0a21521fa16bafafff1e6a009df2b26120c451d5d72cefe"
+    },
+    {
+      "file": "dist/react-three-fiber.cjs.prod.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "6e850ae70e53476e8d92cf6912827f096cf94cc98a811bf02de541966a82d157",
+      "rebuildSha256": "f36882485c9f56dbf7a84797c5d60cb207cf710d9508e9f4190c68167463968e",
+      "normalizedAstSha256": "9968033ef63ca4c222ff3d6ce7c5441bf8ce7116f2ba5cdaa78a25fbb7c95443",
+      "rebuiltNormalizedAstSha256": "9968033ef63ca4c222ff3d6ce7c5441bf8ce7116f2ba5cdaa78a25fbb7c95443"
+    },
+    {
+      "file": "dist/react-three-fiber.esm.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "cc26a8452be261edbeb210365f754784fef2b2d5a8caf1f81f18ea2c305b86f2",
+      "rebuildSha256": "5bd7980acb0edadf219dc4ec4935256eb350666b641390271f5348e63ab66fe1",
+      "normalizedAstSha256": "2647b4cb37ff2ee6dcae54168fe0019dca409cf477de9e07d90690b64a2c1ef7",
+      "rebuiltNormalizedAstSha256": "2647b4cb37ff2ee6dcae54168fe0019dca409cf477de9e07d90690b64a2c1ef7"
+    },
+    {
+      "file": "native/dist/react-three-fiber-native.cjs.dev.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "b6c01e03e5608ef0ca2f652c14169fb1dd0f258674103a0c89b3f34c4c68dc5b",
+      "rebuildSha256": "3989ced6e4bfc0495c2e16fc4d3c273b25f9b31398f496577091ed4a6917dec5",
+      "normalizedAstSha256": "21ab16dade41b47f8361ff4610bca9428649d475ba9d7be0b486cc9af0dadfdb",
+      "rebuiltNormalizedAstSha256": "21ab16dade41b47f8361ff4610bca9428649d475ba9d7be0b486cc9af0dadfdb"
+    },
+    {
+      "file": "native/dist/react-three-fiber-native.cjs.js",
+      "equal": true,
+      "byteIdentical": true,
+      "npmSha256": "71fdc30dc1c77e4b3c3a99e5951bf4d709c15555f18bb5c513178fe550810d60",
+      "rebuildSha256": "71fdc30dc1c77e4b3c3a99e5951bf4d709c15555f18bb5c513178fe550810d60",
+      "normalizedAstSha256": "3c7eefff2aa984ff1c4fecd2d7ff75ae153737ba77bdeddcc5e79947c94fe553",
+      "rebuiltNormalizedAstSha256": "3c7eefff2aa984ff1c4fecd2d7ff75ae153737ba77bdeddcc5e79947c94fe553"
+    },
+    {
+      "file": "native/dist/react-three-fiber-native.cjs.prod.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "f7738f946983d6c168d725be13fb0ba4eaac28aaa7747d7d002848999de7637a",
+      "rebuildSha256": "3703cfc9010a09ff7b1fe434f9dbae4704b5ff7892c2b4a60db37f47e003806b",
+      "normalizedAstSha256": "8c821b3183ddefd37aa15018312c1d7aa92ca29a510cc6ca46aff736944db46d",
+      "rebuiltNormalizedAstSha256": "8c821b3183ddefd37aa15018312c1d7aa92ca29a510cc6ca46aff736944db46d"
+    },
+    {
+      "file": "native/dist/react-three-fiber-native.esm.js",
+      "equal": true,
+      "byteIdentical": false,
+      "npmSha256": "159c055d7beeb7672e8f0151876c95b62a4539073a69f0521407e762a9879111",
+      "rebuildSha256": "9cc3c08bf941ead100b98928b5d5d727cdb1541b24f5fb27811be87a2b0b335e",
+      "normalizedAstSha256": "13f096c65f05c3c6528a4212679acdbcbfea0c0fb91b1bf247ef4111b8086f6a",
+      "rebuiltNormalizedAstSha256": "13f096c65f05c3c6528a4212679acdbcbfea0c0fb91b1bf247ef4111b8086f6a"
+    },
+    {
+      "file": "react-reconciler/constants.js",
+      "equal": true,
+      "byteIdentical": true,
+      "npmSha256": "8c5b2abedef00ba2713ed16ab09d2c4ff136b2c345ca3486b0e4e194cf49d578",
+      "rebuildSha256": "8c5b2abedef00ba2713ed16ab09d2c4ff136b2c345ca3486b0e4e194cf49d578",
+      "normalizedAstSha256": "b89723ddf3f9b6077bcf4ba1cf22244874f6275f7d12ffd6f2fcbed2e58d8f29",
+      "rebuiltNormalizedAstSha256": "b89723ddf3f9b6077bcf4ba1cf22244874f6275f7d12ffd6f2fcbed2e58d8f29"
+    },
+    {
+      "file": "react-reconciler/index.js",
+      "equal": true,
+      "byteIdentical": true,
+      "npmSha256": "7bbbfdf89d18fde6908b616d6e32bbf2585d40c74bda50935ec976cc9add3d73",
+      "rebuildSha256": "7bbbfdf89d18fde6908b616d6e32bbf2585d40c74bda50935ec976cc9add3d73",
+      "normalizedAstSha256": "7550c1bd193ffdb05b496b32c732398f015c566774f6f759fc36c033c8195d35",
+      "rebuiltNormalizedAstSha256": "7550c1bd193ffdb05b496b32c732398f015c566774f6f759fc36c033c8195d35"
+    }
+  ]
+}

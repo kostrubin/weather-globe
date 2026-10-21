@@ -1,109 +1,46 @@
-# Preparation status
+# Implementation status — 2026-10-21
 
-Date: 2026-10-20
+## Delivered scope
 
-## Status
+Weather Globe is implemented in `feat/weather-globe`, based on verified current default `master` c98a20c88ecc8c913fa7ff6efdd4addec4459523. Preparation evidence remains in that base commit. One implementation writer; independent read-only data, browser-trust, license and implementation reviews.
 
-The repository and private Codex Cloud environment are ready for a separate implementation task. This is preparation evidence, not evidence of a completed application.
+- Nine real OM scalar modes, u/v wind animation and exact-time optional overlay; conditional bounded ranges, threadless Worker/WASM, version-aware bounded caches and latest-request commitment.
+- Interactive georeferenced globe, Natural Earth coastlines, palettes, run/valid/interval information and explicit regional pollen masks.
+- Selected-point forecast/chart/table/7 daily summaries, named European AQI, search/coordinates, RU/EN, favorites/recent places, persistent settings, share URL and explicit geolocation.
+- Responsive desktop/mobile sheet, keyboard controls, reduced motion, Auto/High/Low quality and usable WebGL-loss/absent fallback with retry.
+- Ordinary static production build with relative paths, Brotli/gzip sidecars, exact OM GPL source and third-party notices. The later publication follow-up adds the completed runtime preferred-source archive and reconstruction evidence.
 
-## Repository
+## Verified
 
-- Target: `kostrubin/weather-globe`; the owner-created public visibility is unchanged.
-- Default branch: `master`.
-- The repository is selected in the existing ChatGPT Codex Connector installation. Write access was verified.
-- Initial README commit: `606622e6618fc541f6fc0bbfc3c6eedcafa887d8`.
-- Complete preparation bootstrap: `8602e3411e5b602fbcef3d4d8a0e12a6610e14e7`.
-- The complete researched assignment is in `docs/CODEX_MASTER_PROMPT.txt`; repository-specific instructions are in `AGENTS.md`.
-- Implementation belongs on `feat/weather-globe`, with a draft PR targeting the verified default branch when supported. No merge or production deployment is authorized.
-- No application scaffold, package manifest, GitHub Actions workflow, API key, or paid service was introduced during preparation.
+- Frozen install, typecheck, lint, 15 numeric/network/schema tests, 7 E2E scenarios and production build passed.
+- All nine modes decoded and rendered in production Chromium 154 / SwiftShader from completed real runs; several second valid times and six pollen species verified.
+- Four actual pixels matched numerical palette RGB exactly. Berlin DST daily-date issue fixed and independently checked against provider ISO response.
+- Desktop/mobile screenshots visually inspected; WCAG scans zero violations in tested states. Short landscape legend containment fixed and verified.
+- `/atlas/` Worker/WASM and actual compressed transfers verified. No physical-mobile or hardware FPS claim. Detailed results in `VERIFICATION.md` and `evidence/`.
+- First independent review defects fixed and targeted rechecked: near-side raycast, zoom delta, overlay cancellation, interpolation agreement, numerical wind bearing, source identity, missing chart handling and context retry.
 
-## Cloud environment
+## Delivery boundaries
 
-- Name: `weather-globe`.
-- Attached repository: `kostrubin/weather-globe` only.
-- Access: `Only me`, verified in the environment UI.
-- The prepared environment was published. A fresh setup session from its published snapshot retained the prepared tools and helper and passed the checks below.
-- The final reviewed snapshot includes the reusable browser helpers, the conditional setup/build Start skill, and the Package managers network preset with 19 explicit data/documentation/asset domains.
-- The final two added hosts are `raw.githubusercontent.com` and `nodejs.org`, already specified in `docs/CODEX_SETUP.md`.
-- No network secrets or project environment variables were added.
-- Install checks are local-only. The optional network check is not run on every installation.
-- New external spending is zero. Cloud work uses the owner's existing Codex entitlement and is subject to its available usage limits.
+No new spending, billing, CI workflow, production deployment, merge, force-push or repository visibility change. Existing GitHub connection authorizes feature delivery. Available remote side-effect inspection found no workflows/hosting configuration, zero Actions runs and empty default-commit statuses. Remote push/draft PR outcome and final SHA are recorded in handoff after verification.
 
-The six HTTP checks ran in a fresh runtime with matching network spec/observed revision 4. The policy-status metadata was `unknown`; actual successful requests establish access to the tested hosts, not a claim that every allowlist destination or enforcement state was independently verified.
+## Original handoff limits (subsequently updated below)
 
-## Verified tools
+At 00:07 UTC the environment's outbound HTTPS tunnel began returning HTTP 503 with `upstream connect error ... Invalid argument|remote address:envoy://cloudflare_https_tunnel/` for S3 and point APIs; an independent bounded retry confirmed it. This blocked a fresh live wind performance rerun after earlier successful integration checks. It was not bypassed or silently replaced by demo data. Source errors remain visible; last known frames retain their own time. Local renderer profiling is explicitly labeled synthetic fixture evidence.
 
-| Tool | Observed version / configuration |
-| --- | --- |
-| Node.js | v24.19.0 LTS, Krypton |
-| pnpm | 10.34.7, `/workspace/weather-globe-tools/bin/pnpm` |
-| Git | 2.52.0 |
-| Python | 3.12.14 |
-| Python Playwright | 1.62.0 |
-| System Chromium | 154.0.8037.57, `/usr/bin/chromium` |
-| Headless renderer | WebGL2 available through SwiftShader |
+No native remote-preview/port-forward tool is available. Loopback production QA servers are not presented as user-accessible private URLs. Firefox/WebKit, real mobile GPU targets and real-visit CWV are untested. Exact current hosted pricing/terms pages returned403; conservative noncommercial service constraints are documented. No owner decision is needed for the finished local artifacts; permanent hosting remains a separate authorized task.
 
-The install script passed twice during initial preparation. The tools and local browser smoke were checked again in the fresh session from the published snapshot. Application dependencies do not exist yet; the build task must pin compatible versions and create the lockfile after its data feasibility checks.
+Verified remote implementation commit: `b341bc90b43d14aef66564c4c243a8db90155707`, tree `dcf648ecfeacf3fffd25098aa5b7023e0f63608b`. It includes the full verified implementation and a final typechecked/built display-only change exposing optional overlay provenance independently. Git HTTPS push received the same503 tunnel failure; the existing GitHub connector delivered the identical Git tree from verified master via Git Data APIs. The local branch was synchronized to that exact content-addressed commit without rewriting published history. Later delivery-documentation commits do not change application code.
 
-For each shell:
+The designated projectless output mount is absent/read-only in this managed runtime (`mkdir /codex/.../output` fails even with the exact filesystem grant). User-facing evidence is therefore delivered through the authorized GitHub feature branch. Production `dist/` and verified ZIPs remain local; no external compiled bundle or permanent site is published.
 
-```bash
-cd /workspace/weather-globe
-export PATH="/workspace/weather-globe-tools/bin:$PATH"
-```
+External binary delivery was partial at the original handoff: React source retrieval returned503, R3F npm gitHead returned404 and a tag declared9.8.1 rather than installed9.8.2. The subsequent publication follow-up recovered original archives and verified R3F correspondence through a source reconstruction, closing the known gaps. Historical observations remain in evidence; current source delivery is documented in `SOURCE_DELIVERY.md`.
 
-## Data access checks
+## Owner-requested viewing publication follow-up
 
-Each HTTP request used a 20-second timeout and a 256 KiB response cap. The six checks were bounded requests, not bulk model downloads or a global coordinate sampling job.
+The owner subsequently authorized hosting for viewing. Sites owner-private publication succeeded at https://weather-globe-preview.yummy-bloom-2840.chatgpt.site; no audience expansion or paid resource. This supersedes the earlier no-remote-preview boundary. Deployment/source identity is preserved in `evidence/publishing.json` and `work/private-preview/.openai/hosting.json`.
 
-| Check | Actual result |
-| --- | --- |
-| ECMWF IFS025 latest manifest | HTTP 200; 5,165 bytes; valid JSON; `completed: true`; times and variables present |
-| CAMS Global latest manifest | HTTP 200; 3,132 bytes; valid JSON; `completed: true`; times and variables present |
-| CAMS Europe latest manifest | HTTP 200; 2,880 bytes; valid JSON; `completed: true`; times and variables present |
-| One selected-location forecast | HTTP 200; 324 bytes; temperature, timestamp and units validated |
-| One selected-location air-quality request | HTTP 200; 305 bytes; PM10, timestamp and units validated |
-| One geocoding request | HTTP 200; 424 bytes; Berlin, DE result and coordinates validated |
-| Disposable local browser page | HTTP 200; page content verified; WebGL2 available |
-| Browser-origin S3 manifest fetch | HTTP 200; 5,165 bytes; `completed: true`; response type `cors`; WebGL2 available |
+The network recovered. Original runtime-source archives were obtained, and R3F source reconstruction verified all13 JavaScript normalized ASTs plus byte-identical vendored reconciler. Known preferred-source gaps are closed; exact correspondence evidence and runtime archive hash are recorded in `SOURCE_DELIVERY.md`. Earlier503/404 observations remain historical evidence.
 
-The browser request came from a temporary localhost page through the platform's existing proxy, with HTTPS verification enabled. An earlier browser attempt failed with `ERR_CERT_AUTHORITY_INVALID`; the final helper verified the current platform CA against Chromium's NSS database and the confirming browser request succeeded. The successful run found an already-present matching certificate and preserved its original trust. It did not import or delete a certificate; the helper's new-entry cleanup branch was not exercised by that successful check.
+A separate `gh-pages` static branch is prepared from the verified production build, with `.nojekyll`, matching application source and runtime source. Independent `/weather-globe/` prefix smoke passed with real data. Pages was disabled at inspection; activation is not exposed through the connected GitHub tools and direct API access is destination-policy denied. `PUBLISHING.md` gives the exact final UI step if it remains disabled. No merge, force-push, billing change or custom Actions workflow. The only application change in this follow-up is an optional runtime-source download link; no weather semantics changed.
 
-## Retained browser helpers
-
-These environment files are outside the repository and retained in the environment snapshot:
-
-- `/workspace/weather-globe-tools/checks/browser-check.py`: disposable local page/content/WebGL2 smoke.
-- `/workspace/weather-globe-tools/checks/with-proxy-ca.py`: verifies only the provided current platform CA and uses the isolated Cloud VM account's NSS database, preserving existing certificates and trust.
-- `/workspace/weather-globe-tools/checks/browser-origin-check.py`: optional bounded S3/CORS check.
-
-The wrapper serializes its invocations, reuses an existing matching CA without changing it, and is designed to remove only a matching entry it created after the child test exits. Its scope is the test account's NSS store within the isolated Cloud VM; it is not a process-private store or the owner's actual browser. It does not override HOME, change proxy routing, or disable TLS verification.
-
-Optional local check:
-
-```bash
-python /workspace/weather-globe-tools/checks/with-proxy-ca.py -- python /workspace/weather-globe-tools/checks/browser-check.py
-```
-
-Optional explicit network check, only when needed to diagnose a concrete readiness issue:
-
-```bash
-python /workspace/weather-globe-tools/checks/with-proxy-ca.py -- python /workspace/weather-globe-tools/checks/browser-origin-check.py
-```
-
-The tested browser helper configures the platform proxy explicitly and exempts only loopback traffic. Future browser tests should follow that supported configuration; merely inheriting HTTP-client environment variables is not proof of correct browser routing.
-
-## Still part of the implementation assignment
-
-- Real browser Worker/WASM decoding and GPU texture upload for actual fields at two times.
-- Correct units, intervals, geography, coverage masks, missing data, interpolation and scientific semantics.
-- Application implementation, responsive UI, localization, accessibility and error recovery.
-- Dependency/license verification, pinned application versions and lockfile.
-- Application tests, production build and private application preview.
-- Performance measurement on representative hardware/mobile devices. SwiftShader availability is not hardware FPS or mobile performance evidence.
-
-## Ready launch
-
-A separate Cloud task draft was prepared with environment `weather-globe`, model `GPT-6.1 Sol High`, and `Approve for me`. Its implementation prompt remains unsent. These are launch selections, not promises that platform approvals or usage limits can never interrupt a task.
-
-Use the launch text in `docs/CODEX_SETUP.md`. The build task must read this progress record and the complete master prompt, preserve user changes, continue through the authorized build and verification, and report any genuine blocker precisely. Preparation itself did not start the application build.
+GitHub Pages publication completed: `gh-pages` commit0323e5097181807c8c4a4d26f61a92cf91c31786, application sourcef480926bd6de0215c4142a12ef8831e2a8746fec. GitHub automatically enabled Pages after branch creation; standard run39524866085 build/deploy/report jobs all succeeded. Deploy log confirmed https://kostrubin.github.io/weather-globe/. No owner activation step remains. The master branch and draft PR remain unmerged.

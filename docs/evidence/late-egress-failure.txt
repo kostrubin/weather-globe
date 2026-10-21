@@ -1,0 +1,6 @@
+2026-10-21 00:07:11 UTC; independently repeated at 00:07:32 UTC.
+Three Open-Meteo S3 manifests and selected-location forecast returned identical HTTP 503 / 215-byte envoy response:
+upstream connect error ... immediate connect error:
+Invalid argument|remote address:envoy://cloudflare_https_tunnel/
+Earlier real production checks passed all nine layers, second times and point APIs.
+This records a late environment egress failure, not a claim of provider schema change, quota429 or a bypass.

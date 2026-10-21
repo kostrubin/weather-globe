@@ -1,0 +1,67 @@
+{
+  "exact_om_source_archive": "public/sources/openmeteo-0.0.20-corresponding-source.tar.gz",
+  "observations": [
+    {
+      "observed_at": "2026-10-21T00:27:44.314Z",
+      "request_url": "https://api.github.com/repos/pmndrs/react-three-fiber/git/commits/e6ec3506ebf7879c26bd5ac27986b5d4421f3254",
+      "npm_package": "@react-three/fiber@9.8.2",
+      "npm_gitHead": "e6ec3506ebf7879c26bd5ac27986b5d4421f3254",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/commits#get-a-commit-object\",\"status\":\"404\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/commits#get-a-commit-object\",\"status\":\"404\"}",
+          "error_code": "NOT_FOUND",
+          "error_data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/git/commits#get-a-commit-object",
+            "status": "404"
+          }
+        },
+        "isError": true
+      }
+    },
+    {
+      "observed_at": "2026-10-21T00:27:46.981338+00:00",
+      "request_url": "https://codeload.github.com/react/react/tar.gz/61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+      "method": "GET",
+      "timeout_seconds": 15,
+      "response_cap_bytes": 33554432,
+      "route": "inherited configured platform proxy; TLS verification enabled",
+      "status": 503,
+      "reason": "Service Unavailable",
+      "headers": {
+        "content-length": "215",
+        "content-type": "text/plain",
+        "date": "Wed, 21 Oct 2026 00:27:46 GMT",
+        "server": "envoy"
+      },
+      "body": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: immediate connect error: Invalid argument|remote address:envoy://cloudflare_https_tunnel/"
+    }
+  ],
+  "r3f_fallback": {
+    "tag": "v9.8.2",
+    "package_declared_version": "9.8.1",
+    "correspondence": "not established"
+  },
+  "local_review_snapshot": {
+    "name": "runtime-package-source-forms.tar.gz",
+    "bytes": 16001067,
+    "sha256": "614925fa39abb43a3f5625bc289335465e4889b1517a524c6a232981f61f61bd",
+    "source_complete": false
+  },
+  "status_at_original_handoff": "partial; compiled application retained locally, no external binary release",
+  "previously_unresolved_preferred_source": [
+    "React family and R3F vendored reconciler",
+    "exact R3F9.8.2 source",
+    "Zustand original TypeScript",
+    "suspend-react original TypeScript",
+    "Babel runtime generator/build source"
+  ],
+  "current_status": "known preferred-source gaps closed by later original-source downloads and verified R3F reconstruction",
+  "followup_evidence": "runtime-source-delivery.json"
+}

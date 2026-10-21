@@ -1,0 +1,34 @@
+{
+  "purpose": "owner-private viewing requested by the user after initial source-only delivery",
+  "provider": "Sites",
+  "siteProjectId": "appgprj_6ad80cc320a48191b54a4c6868aa677e",
+  "versionId": "appgprj_6ad80cc320a48191b54a4c6868aa677e~appgver_a13cd22870748191ba20a8bbe1cc8167",
+  "deploymentId": "appgdep_6ad80d1aa6d08191b247b8dede416d57",
+  "status": "succeeded",
+  "url": "https://weather-globe-preview.yummy-bloom-2840.chatgpt.site",
+  "audience": "owner-private, unchanged from creation",
+  "verifiedSourceCommit": "9d6a22f5e77a718f0ed7b27d7a2e0361dbef52ca",
+  "applicationSourceCommit": "2c38d793514896aa2159df6ec2d0ed6af4ff0fd2",
+  "githubPages": {
+    "enabledAtInspection": false,
+    "activationAPI": "not exposed by connected GitHub tools; direct gh api denied by managed destination policy",
+    "plannedBranch": "gh-pages",
+    "publishingPath": "/",
+    "enabledAfterBranchPush": true,
+    "branchCommit": "0323e5097181807c8c4a4d26f61a92cf91c31786",
+    "applicationSourceCommit": "f480926bd6de0215c4142a12ef8831e2a8746fec",
+    "url": "https://kostrubin.github.io/weather-globe/",
+    "runId": 39524866085,
+    "runUrl": "https://github.com/kostrubin/weather-globe/actions/runs/39524866085",
+    "jobs": {
+      "build": "success",
+      "deploy": "success",
+      "report-build-status": "success"
+    },
+    "deployLogConfirmation": "2026-10-21T01:02:41.0724998Z Evaluated environment url: https://kostrubin.github.io/weather-globe/",
+    "activation": "GitHub automatic Pages setup on authorized new gh-pages branch push; no manual step remains",
+    "actualOriginBrowserCheck": "unavailable through selected executor/network tools; prefix production smoke verified separately"
+  },
+  "newExternalSpending": 0,
+  "sourceSync": "Exact pushed static source head verified; source credential used only through hidden stdin and child environment; no credential persisted. Packaged helper absent in this executor; ordinary Git and tar performed equivalent source/manifest/archive checks."
+}
