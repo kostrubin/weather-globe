@@ -1,0 +1,93 @@
+{
+  "assets": [
+    {
+      "url": "?time=2026-10-21T00:00:00Z",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "encoding": "br"
+    },
+    {
+      "url": "assets/index-Bpr4pLv1.css",
+      "status": 200,
+      "type": "text/css",
+      "encoding": "br"
+    },
+    {
+      "url": "assets/index-C46UsA90.js",
+      "status": 200,
+      "type": "text/javascript",
+      "encoding": "br"
+    },
+    {
+      "url": "assets/Globe-C0m9Vv50.js",
+      "status": 200,
+      "type": "text/javascript",
+      "encoding": "br"
+    },
+    {
+      "url": "favicon.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "encoding": null
+    },
+    {
+      "url": "data/coastlines.geojson",
+      "status": 200,
+      "type": "application/geo+json",
+      "encoding": "br"
+    },
+    {
+      "url": "assets/field.worker-8GuXT-6C.js",
+      "status": 200,
+      "type": "text/javascript",
+      "encoding": "br"
+    },
+    {
+      "url": "assets/om_file_format.web-BvOYq4Ip.js",
+      "status": 200,
+      "type": "text/javascript",
+      "encoding": "br"
+    },
+    {
+      "url": "assets/om_file_format.web-DcGz05sA.wasm",
+      "status": 200,
+      "type": "application/wasm",
+      "encoding": "br"
+    },
+    {
+      "url": "THIRD_PARTY_NOTICES.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "encoding": "br"
+    },
+    {
+      "url": "sources/openmeteo-0.0.20-corresponding-source.tar.gz",
+      "status": 200,
+      "type": "application/octet-stream",
+      "encoding": null
+    }
+  ],
+  "errors": [],
+  "first": {
+    "layer": "temperature",
+    "time": "2026-10-21T00:00Z",
+    "stats": {
+      "bytes": 917504,
+      "requests": 15,
+      "elapsedMs": 3260.300000000745,
+      "decodedBytes": 4413600,
+      "etag": "\"4c89c45a5d31d6f0decea60ee46c1bbd-6\"",
+      "rangeVerified": true
+    }
+  },
+  "second": {
+    "layer": "temperature",
+    "time": "2026-10-21T03:00Z",
+    "status": "ready"
+  },
+  "otherLayer": {
+    "layer": "uv",
+    "time": "2026-10-21T03:00Z",
+    "status": "ready"
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "status": "partial; compiled application retained locally, no external binary release",
   "exact_om_source_archive": "public/sources/openmeteo-0.0.20-corresponding-source.tar.gz",
   "observations": [
     {
@@ -49,17 +48,20 @@
     "package_declared_version": "9.8.1",
     "correspondence": "not established"
   },
-  "remaining_preferred_source": [
+  "local_review_snapshot": {
+    "name": "runtime-package-source-forms.tar.gz",
+    "bytes": 16001067,
+    "sha256": "614925fa39abb43a3f5625bc289335465e4889b1517a524c6a232981f61f61bd",
+    "source_complete": false
+  },
+  "status_at_original_handoff": "partial; compiled application retained locally, no external binary release",
+  "previously_unresolved_preferred_source": [
     "React family and R3F vendored reconciler",
     "exact R3F9.8.2 source",
     "Zustand original TypeScript",
     "suspend-react original TypeScript",
     "Babel runtime generator/build source"
   ],
-  "local_review_snapshot": {
-    "name": "runtime-package-source-forms.tar.gz",
-    "bytes": 16001067,
-    "sha256": "614925fa39abb43a3f5625bc289335465e4889b1517a524c6a232981f61f61bd",
-    "source_complete": false
-  }
+  "current_status": "known preferred-source gaps closed by later original-source downloads and verified R3F reconstruction",
+  "followup_evidence": "runtime-source-delivery.json"
 }

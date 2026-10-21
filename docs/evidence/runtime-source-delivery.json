@@ -1,0 +1,32 @@
+{
+  "prepared_at": "2026-10-21T00:56:33.365235+00:00",
+  "artifact": "weather-globe-runtime-corresponding-source.tar.gz",
+  "bytes": 53850808,
+  "sha256": "1b729fa33097988af2fc28cb0b7cd98dcb9b19e021593dc9623a3c0b7f3418c0",
+  "production_package_snapshots": 22,
+  "r3f_source_correspondence": {
+    "npm_version": "9.8.2",
+    "npm_gitHead": "e6ec3506ebf7879c26bd5ac27986b5d4421f3254",
+    "npm_gitHead_status": 404,
+    "reconstruction_source_commit": "d74622ea8ed717f7212d7e19d65ff3e325508389",
+    "metadata_changes": [
+      "version9.8.1->9.8.2",
+      "explicit files dist/native/react-reconciler/CHANGELOG.md"
+    ],
+    "rebuild_success": true,
+    "frozen_install_verified": true,
+    "javascript_files_compared": 13,
+    "all_normalized_asts_equal": true,
+    "vendored_reconciler_js_byte_identical": true,
+    "whole_bundle_bit_reproducibility_claimed": false
+  },
+  "remaining_known_runtime_preferred_source_gaps": [],
+  "scope": "Technical source-correspondence evidence; preserve notices and co-deliver matching app source. Not a blanket legal guarantee.",
+  "excludes": [
+    "node_modules",
+    "package-manager caches",
+    "credentials",
+    "browser profiles",
+    ".git history"
+  ]
+}

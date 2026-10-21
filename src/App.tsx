@@ -1140,6 +1140,11 @@ export default function App() {
           >
             OM 0.0.20 · {t.sourceCode}
           </a>
+          <a
+            href={`${import.meta.env.BASE_URL}sources/weather-globe-runtime-source.tar.gz`}
+          >
+            Runtime · {t.sourceCode} (54 MB)
+          </a>
           <a href={`${import.meta.env.BASE_URL}THIRD_PARTY_NOTICES.txt`}>
             {t.licenses}
           </a>
