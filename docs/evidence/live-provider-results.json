@@ -1,0 +1,1183 @@
+{
+  "cold": {
+    "marks": [
+      {
+        "name": "shell-ready",
+        "start": 321.69999999995343
+      },
+      {
+        "name": "globe-first-frame",
+        "start": 627.8999999999069
+      },
+      {
+        "name": "local-forecast-ready",
+        "start": 3853.1999999999534
+      },
+      {
+        "name": "first-real-field",
+        "start": 4442.699999999953
+      }
+    ],
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "longTasks": [
+      74,
+      81,
+      154,
+      59,
+      54
+    ],
+    "assets": [
+      {
+        "name": "index-CzSomVXm.js",
+        "bytes": 114942,
+        "decoded": 402242
+      },
+      {
+        "name": "index-Bpr4pLv1.css",
+        "bytes": 5705,
+        "decoded": 23863
+      },
+      {
+        "name": "Globe-BoRf9ydH.js",
+        "bytes": 221965,
+        "decoded": 940831
+      },
+      {
+        "name": "favicon.svg",
+        "bytes": 315,
+        "decoded": 315
+      },
+      {
+        "name": "coastlines.geojson",
+        "bytes": 51780,
+        "decoded": 139907
+      },
+      {
+        "name": "field.worker-8GuXT-6C.js",
+        "bytes": 28969,
+        "decoded": 110043
+      }
+    ]
+  },
+  "layers": [
+    {
+      "layer": "temperature",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T12:00:00Z",
+      "stats": {
+        "bytes": 917504,
+        "requests": 15,
+        "elapsedMs": 3406.5,
+        "decodedBytes": 4413600,
+        "etag": "\"4c89c45a5d31d6f0decea60ee46c1bbd-6\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 5,
+      "textures": 2
+    },
+    {
+      "layer": "precipitation",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T12:00:00Z",
+      "stats": {
+        "bytes": 393216,
+        "requests": 7,
+        "elapsedMs": 1167.5,
+        "decodedBytes": 4413600,
+        "etag": "\"4c89c45a5d31d6f0decea60ee46c1bbd-6\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 5,
+      "textures": 2
+    },
+    {
+      "layer": "wind",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T12:00:00Z",
+      "stats": {
+        "bytes": 1310720,
+        "requests": 21,
+        "elapsedMs": 2806.5,
+        "decodedBytes": 8827200,
+        "etag": "\"4c89c45a5d31d6f0decea60ee46c1bbd-6\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 6,
+      "textures": 2
+    },
+    {
+      "layer": "uv",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T12:00:00Z",
+      "stats": {
+        "bytes": 65536,
+        "requests": 2,
+        "elapsedMs": 595.2999999998137,
+        "decodedBytes": 1726200,
+        "etag": "\"5b45e1f9f0fd7fee579a1f52b927287d-1\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 5,
+      "textures": 2
+    },
+    {
+      "layer": "pollen",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T00:00:00Z",
+      "stats": {
+        "bytes": 131072,
+        "requests": 3,
+        "elapsedMs": 1242,
+        "decodedBytes": 1250200,
+        "etag": "\"ed4c5e301b5a177b9e4d8b29ec7457f3-1\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 5,
+      "textures": 2
+    },
+    {
+      "layer": "pm25",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T12:00:00Z",
+      "stats": {
+        "bytes": 262144,
+        "requests": 5,
+        "elapsedMs": 1072.8000000000466,
+        "decodedBytes": 1726200,
+        "etag": "\"5b45e1f9f0fd7fee579a1f52b927287d-1\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 5,
+      "textures": 2
+    },
+    {
+      "layer": "cloud",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T12:00:00Z",
+      "stats": {
+        "bytes": 720896,
+        "requests": 12,
+        "elapsedMs": 1811.6000000000931,
+        "decodedBytes": 4413600,
+        "etag": "\"4c89c45a5d31d6f0decea60ee46c1bbd-6\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 5,
+      "textures": 2
+    },
+    {
+      "layer": "humidity",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T12:00:00Z",
+      "stats": {
+        "bytes": 589824,
+        "requests": 10,
+        "elapsedMs": 1421.3000000000466,
+        "decodedBytes": 4413600,
+        "etag": "\"4c89c45a5d31d6f0decea60ee46c1bbd-6\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 5,
+      "textures": 2
+    },
+    {
+      "layer": "pressure",
+      "time": "2026-10-21T00:00Z",
+      "run": "2026-10-20T12:00:00Z",
+      "stats": {
+        "bytes": 458752,
+        "requests": 8,
+        "elapsedMs": 1271.5,
+        "decodedBytes": 4413600,
+        "etag": "\"4c89c45a5d31d6f0decea60ee46c1bbd-6\"",
+        "rangeVerified": true
+      },
+      "drawCalls": 5,
+      "textures": 2
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4174/",
+      "type": "document",
+      "requestBodySize": 0,
+      "requestHeadersSize": 633,
+      "responseBodySize": 325,
+      "responseHeadersSize": 267
+    },
+    {
+      "url": "http://127.0.0.1:4174/assets/index-Bpr4pLv1.css",
+      "type": "stylesheet",
+      "requestBodySize": 0,
+      "requestHeadersSize": 581,
+      "responseBodySize": 5705,
+      "responseHeadersSize": 252
+    },
+    {
+      "url": "http://127.0.0.1:4174/assets/index-CzSomVXm.js",
+      "type": "script",
+      "requestBodySize": 0,
+      "requestHeadersSize": 566,
+      "responseBodySize": 114942,
+      "responseHeadersSize": 261
+    },
+    {
+      "url": "http://127.0.0.1:4174/assets/Globe-BoRf9ydH.js",
+      "type": "script",
+      "requestBodySize": 0,
+      "requestHeadersSize": 564,
+      "responseBodySize": 221965,
+      "responseHeadersSize": 261
+    },
+    {
+      "url": "http://127.0.0.1:4174/favicon.svg",
+      "type": "other",
+      "requestBodySize": 0,
+      "requestHeadersSize": 585,
+      "responseBodySize": 315,
+      "responseHeadersSize": 234
+    },
+    {
+      "url": "http://127.0.0.1:4174/data/coastlines.geojson",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 533,
+      "responseBodySize": 51780,
+      "responseHeadersSize": 265
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/latest.json",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 640,
+      "responseBodySize": 5698,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://air-quality-api.open-meteo.com/v1/air-quality",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 722,
+      "responseBodySize": 1242,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "http://127.0.0.1:4174/assets/field.worker-8GuXT-6C.js",
+      "type": "script",
+      "requestBodySize": 0,
+      "requestHeadersSize": 445,
+      "responseBodySize": 0,
+      "responseHeadersSize": 260
+    },
+    {
+      "url": "http://127.0.0.1:4174/assets/om_file_format.web-BvOYq4Ip.js",
+      "type": "script",
+      "requestBodySize": 0,
+      "requestHeadersSize": 480,
+      "responseBodySize": 2374,
+      "responseHeadersSize": 259
+    },
+    {
+      "url": "http://127.0.0.1:4174/assets/om_file_format.web-DcGz05sA.wasm",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 450,
+      "responseBodySize": 146107,
+      "responseHeadersSize": 262
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65774,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65743,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65744,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65768,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65747,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65734,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 66008,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65736,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65829,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://api.open-meteo.com/v1/forecast",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 974,
+      "responseBodySize": 3408,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65765,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65780,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65761,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65762,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65735,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 66011,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65750,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65783,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65815,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65734,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65749,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65766,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65759,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65760,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65762,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 66019,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65761,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65828,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65727,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65766,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65775,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65753,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65750,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65759,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65756,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 66020,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65750,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65827,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65767,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65749,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65751,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_global/latest.json",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 638,
+      "responseBodySize": 3388,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_global/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 645,
+      "responseBodySize": 65861,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_global/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 645,
+      "responseBodySize": 65778,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_global/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 645,
+      "responseBodySize": 65743,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_europe/latest.json",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 638,
+      "responseBodySize": 3115,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_europe/2026/10/20/0000Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 645,
+      "responseBodySize": 65941,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_europe/2026/10/20/0000Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 643,
+      "responseBodySize": 65855,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_global/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 643,
+      "responseBodySize": 65741,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_global/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 643,
+      "responseBodySize": 65763,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_global/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 643,
+      "responseBodySize": 65761,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/cams_global/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 643,
+      "responseBodySize": 65750,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65759,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65849,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65909,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65776,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65776,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65761,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65740,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65763,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65745,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65810,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65752,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65738,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65846,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65759,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65740,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65749,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65741,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65782,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65786,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65732,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65851,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65765,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65749,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65755,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65762,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65761,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 647,
+      "responseBodySize": 65744,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://geocoding-api.open-meteo.com/v1/search",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 630,
+      "responseBodySize": 1197,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://air-quality-api.open-meteo.com/v1/air-quality",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 814,
+      "responseBodySize": 1050,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://api.open-meteo.com/v1/forecast",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 972,
+      "responseBodySize": 3178,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/assets/index-Bpr4pLv1.css",
+      "type": "stylesheet",
+      "requestBodySize": 0,
+      "requestHeadersSize": 593,
+      "responseBodySize": 5705,
+      "responseHeadersSize": 252
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/",
+      "type": "document",
+      "requestBodySize": 0,
+      "requestHeadersSize": 639,
+      "responseBodySize": 325,
+      "responseHeadersSize": 267
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/assets/index-CzSomVXm.js",
+      "type": "script",
+      "requestBodySize": 0,
+      "requestHeadersSize": 578,
+      "responseBodySize": 114942,
+      "responseHeadersSize": 261
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/assets/Globe-BoRf9ydH.js",
+      "type": "script",
+      "requestBodySize": 0,
+      "requestHeadersSize": 576,
+      "responseBodySize": 221965,
+      "responseHeadersSize": 261
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/favicon.svg",
+      "type": "other",
+      "requestBodySize": 0,
+      "requestHeadersSize": 597,
+      "responseBodySize": 315,
+      "responseHeadersSize": 234
+    },
+    {
+      "url": "https://air-quality-api.open-meteo.com/v1/air-quality",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 722,
+      "responseBodySize": 1001,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/data/coastlines.geojson",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 545,
+      "responseBodySize": 51780,
+      "responseHeadersSize": 265
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/latest.json",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 691,
+      "responseBodySize": 196,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/assets/field.worker-8GuXT-6C.js",
+      "type": "script",
+      "requestBodySize": 0,
+      "requestHeadersSize": 457,
+      "responseBodySize": 0,
+      "responseHeadersSize": 260
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/assets/om_file_format.web-BvOYq4Ip.js",
+      "type": "script",
+      "requestBodySize": 0,
+      "requestHeadersSize": 492,
+      "responseBodySize": 2374,
+      "responseHeadersSize": 259
+    },
+    {
+      "url": "http://127.0.0.1:4175/atlas/assets/om_file_format.web-DcGz05sA.wasm",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 462,
+      "responseBodySize": 146107,
+      "responseHeadersSize": 262
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65903,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65767,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65771,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65740,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65723,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65760,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65733,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65734,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65785,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65927,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65759,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65847,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://api.open-meteo.com/v1/forecast",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 974,
+      "responseBodySize": 3171,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65760,
+      "responseHeadersSize": 0
+    },
+    {
+      "url": "https://openmeteo.s3.amazonaws.com/data_spatial/ecmwf_ifs025/2026/10/20/1200Z/2026-10-21T0000.om",
+      "type": "fetch",
+      "requestBodySize": 0,
+      "requestHeadersSize": 649,
+      "responseBodySize": 65747,
+      "responseHeadersSize": 0
+    }
+  ],
+  "dailyLabels": [
+    "ср, 21",
+    "чт, 22",
+    "пт, 23",
+    "сб, 24",
+    "вс, 25",
+    "пн, 26",
+    "вт, 27"
+  ],
+  "shortLandscape": {
+    "map": 625,
+    "legend": 610,
+    "timeline": 625,
+    "overflow": false
+  },
+  "basepath": {
+    "time": "2026-10-21T00:00Z",
+    "stats": {
+      "bytes": 917504,
+      "requests": 15,
+      "elapsedMs": 3410.6999999999534,
+      "decodedBytes": 4413600,
+      "etag": "\"4c89c45a5d31d6f0decea60ee46c1bbd-6\"",
+      "rangeVerified": true
+    },
+    "worker": [
+      "http://127.0.0.1:4175/atlas/assets/field.worker-8GuXT-6C.js"
+    ]
+  },
+  "pageErrors": []
+}

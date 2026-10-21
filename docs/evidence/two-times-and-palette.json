@@ -1,0 +1,118 @@
+[
+  {
+    "layer": "temperature",
+    "time": "2026-10-21T03:00Z",
+    "stats": {
+      "bytes": 851968,
+      "requests": 14,
+      "elapsedMs": 2667.5,
+      "decodedBytes": 4413600,
+      "etag": "\"17c25800cd68c03cbf97fef05886cc3b-6\"",
+      "rangeVerified": true
+    }
+  },
+  {
+    "palette": [
+      {
+        "lat": -24.412207380142036,
+        "lon": -62.009740912350715,
+        "value": 21.6552492727954,
+        "color": [
+          238,
+          187,
+          129
+        ],
+        "pixel": [
+          238,
+          187,
+          129
+        ],
+        "error": 0
+      },
+      {
+        "lat": -30.813896554459795,
+        "lon": -45.93299307609377,
+        "value": 16.08217850448631,
+        "color": [
+          238,
+          212,
+          150
+        ],
+        "pixel": [
+          238,
+          212,
+          150
+        ],
+        "error": 0
+      },
+      {
+        "lat": -43.36797521631435,
+        "lon": -67.75613249006817,
+        "value": 11.54687566018632,
+        "color": [
+          231,
+          224,
+          162
+        ],
+        "pixel": [
+          231,
+          224,
+          162
+        ],
+        "error": 0
+      },
+      {
+        "lat": -43.16012425759215,
+        "lon": -46.0949430103788,
+        "value": 8.623738350231678,
+        "color": [
+          219,
+          224,
+          166
+        ],
+        "pixel": [
+          219,
+          224,
+          166
+        ],
+        "error": 0
+      }
+    ]
+  },
+  {
+    "layer": "wind",
+    "time": "2026-10-21T06:00Z",
+    "stats": {
+      "bytes": 1507328,
+      "requests": 24,
+      "elapsedMs": 4019.7000000001863,
+      "decodedBytes": 8827200,
+      "etag": "\"c737efaf9adc9be3ab76e6b34e03ffed-6\"",
+      "rangeVerified": true
+    }
+  },
+  {
+    "layer": "uv",
+    "time": "2026-10-21T07:00Z",
+    "stats": {
+      "bytes": 196608,
+      "requests": 4,
+      "elapsedMs": 1295.7999999998137,
+      "decodedBytes": 1726200,
+      "etag": "\"d8b13f0443d75eaf242e14da02b5060b-1\"",
+      "rangeVerified": true
+    }
+  },
+  {
+    "layer": "pollen",
+    "time": "2026-10-21T08:00Z",
+    "stats": {
+      "bytes": 131072,
+      "requests": 3,
+      "elapsedMs": 1328.7999999998137,
+      "decodedBytes": 1250200,
+      "etag": "\"31eb7ae2f1f44936062a58a1afb3fed3-1\"",
+      "rangeVerified": true
+    }
+  }
+]
