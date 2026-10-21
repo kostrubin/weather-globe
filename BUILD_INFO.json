@@ -1,0 +1,12 @@
+{
+  "applicationSourceCommit": "f480926bd6de0215c4142a12ef8831e2a8746fec",
+  "runtimeSourceSha256": "1b729fa33097988af2fc28cb0b7cd98dcb9b19e021593dc9623a3c0b7f3418c0",
+  "applicationZipSha256": "d6b60dd5950b8318d9d6bd79774a46f223c2e1e55a30bb0187686222cea25e63",
+  "checks": [
+    "typecheck",
+    "lint",
+    "production build",
+    "independent prefix browser smoke with real data"
+  ],
+  "newExternalSpending": 0
+}
